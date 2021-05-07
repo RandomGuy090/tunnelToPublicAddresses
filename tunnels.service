@@ -1,0 +1,12 @@
+[Unit]
+Description=automatically run ngrok tunnels
+After=default.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash /ngrokTunneling/run.sh 
+TimeoutStartSec=0
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,8 @@
+authtoken: YOUR_AUTHTOKEN
+log_level: info
+log_format: json
+log: /tunnelToPublicAddresses/.ngrokConfingTemplate/logs
+tunnels:
+ http:
+  proto: http
+  addr: 5001
