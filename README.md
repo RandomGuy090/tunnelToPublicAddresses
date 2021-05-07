@@ -1,10 +1,11 @@
-did you buy raspberry pi and you can't get access from WAN?
+Did you buy raspberry pi and you can't get access from WAN?
 ===
 I know you pain, I have private ip address too.
 This script will help you deal with this problem
 #all you need:
 - pyhon3
 - apache2
+- screen
 - dataplicity agent and account installed
 - ngrok account (as many as you will need tunnels at once)
 
@@ -30,7 +31,7 @@ curl -s https://www.dataplicity.com/unique_id.py | sudo python
 ```
 ![2](https://user-images.githubusercontent.com/64653975/117491272-442e1200-af70-11eb-9223-20405783bc0c.png)
 
-#5 open new device and enable wormhole
+### 5 open new device and enable wormhole
 ![3](https://user-images.githubusercontent.com/64653975/117491274-455f3f00-af70-11eb-8461-85d97a176784.png)
 ![4](https://user-images.githubusercontent.com/64653975/117491276-45f7d580-af70-11eb-9c62-12bde945998c.png)
 ### 6 open address got from wormhole
